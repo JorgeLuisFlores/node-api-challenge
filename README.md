@@ -39,14 +39,21 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+      We learned about Express Router and Middleware this week and how to incorperate them into our app/server.
+      Express Router helps create specific routes for our HTTP requests.
+      Middleware is comprised of helper functions(s) that execute before our HTTP requests that can fulfill specific tasks such as authorizing a user before passing our data along.
 
-- [ ] Describe Middleware?
+* [ ] Describe Middleware?
+      Middleware is comprised of helper functions(s) that execute before our HTTP requests that can fulfill specific tasks such as authorizing a user before passing our data along.
 
 - [ ] Describe a Resource?
+      Resources are endpoints and database schemas.
 
 - [ ] What can the API return to help clients know if a request was successful?
+      Our API can return HTTP Method Codes to let our clients know if a request was sucessful or not.
 
 - [ ] How can we partition our application into sub-applications?
+      We can use Express Router to accomplish this.
 
 ## Minimum Viable Product
 
